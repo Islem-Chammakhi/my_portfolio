@@ -82,7 +82,7 @@ const Resume = () => {
                         whileHover={{ scale: 1.2 }}
                         className='p-4'>
                         <Card
-                            title="Baccalaureate"
+                            title="High School Diploma"
                             description="2019-2022, Jeune Fille"
                             icon={null}
                             backgroundColor="bg-blue-200"
