@@ -3,6 +3,12 @@ import React from 'react';
 import Card from '../../components/Card';
 import { FaCode, FaDatabase } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { BiChip } from 'react-icons/bi';
+import { MdClass } from 'react-icons/md';
+import { FaCogs } from 'react-icons/fa';
+import { AiOutlineDatabase } from 'react-icons/ai';
+import { FaLinux } from 'react-icons/fa';
+import { FaNetworkWired } from 'react-icons/fa';
 
 const variant = {
   hidden: {
@@ -63,18 +69,18 @@ const HomePage = () => {
                     backgroundColor="bg-red-100"
                     title="Web Development"
                     description="With extensive experience in web development, I excel at crafting comprehensive and dynamic web solutions. My expertise spans across creating well-structured and visually engaging web pages, designing responsive layouts, and developing interactive functionalities. I leverage modern tools and frameworks to build efficient and scalable applications, focusing on optimizing performance and enhancing user experience."
-                    icon={<FaCode size={50} className="text-orange-400" />}
+                    icon={<FaCode size={50} className="text-red-400" />}
                 />
                 <Card
                     title="Low-Level Programming"
                     description="Skilled in managing memory, utilizing pointers,strong understanding of data structures and implementing efficient algorithms. Experienced in developing and debugging system-level applications, focusing on performance and resource management."
-                    icon={<FaDatabase size={50} className="text-gray-600" />}
+                    icon={<BiChip size={50} className="text-gray-600" />}
                     backgroundColor="bg-gray-200"
                 />
                 <Card
                     title="Object-Oriented Programming & Enterprise Solutions"
                     description="Experienced in designing and implementing robust and scalable software using OOP concepts such as inheritance, polymorphism, encapsulation, and abstraction. Skilled in creating modular and maintainable code, with a focus on improving software design and system architecture."
-                    icon={<FaDatabase size={50} className="text-blue-600" />}
+                    icon={<AiOutlineDatabase size={50} className="text-blue-600" />}
                     backgroundColor="bg-blue-200"
                 />
                 <Card
@@ -86,13 +92,13 @@ const HomePage = () => {
                 <Card
                     title="Linux System Administration"
                     description="Skilled in Linux system administration with experience in configuring, managing, and troubleshooting Linux environments. Skilled in shell scripting, process management, and system performance optimization. Adept at handling user permissions, package management, and network configuration to ensure a stable and secure system."
-                    icon={<FaDatabase size={50} className="text-green-600" />}
+                    icon={<FaLinux size={50} className="text-yellow-600" />}
                     backgroundColor="bg-yellow-200"
                 />
                 <Card
                     title="Networking Basics"
                     description="Basic knowledge of networking concepts, including MAC addresses, IP addresses, routers, and network protocols such as TCP and UDP. Familiar with DHCP for dynamic IP address allocation and DNS servers for domain name resolution. Capable of understanding and troubleshooting fundamental network configurations and connectivity issues."
-                    icon={<FaDatabase size={50} className="text-green-600" />}
+                    icon={<FaNetworkWired size={50} className="text-purple-600" />}
                     backgroundColor="bg-purple-300"
                 />
             </div>
