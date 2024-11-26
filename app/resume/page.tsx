@@ -5,6 +5,7 @@ import ProjectCard from '../../components/ProjectCard';
 import { FaGraduationCap } from 'react-icons/fa';
 import { MdWorkOutline } from 'react-icons/md';
 import Gallery from '../../assets/gallery.jpg';
+import JavaCard from '../../assets/javacard.png';
 import Blogs from '../../assets/blogs.png';
 import Badge from '../../components/Badge';
 import { motion } from 'framer-motion';
@@ -69,6 +70,11 @@ const Resume = () => {
                         title="Blogs App"
                         description="I developed a simple blog application using Node.js for the backend, with EJS for rendering views and MongoDB for data storage. The application allows users to add, delete, and manage blogs with authentication. I implemented the MVC architecture to separate concerns and ensure scalability."
                         image={Blogs}
+                    />
+                    <ProjectCard
+                        title="JavaCard Application for Managing Monetary Transactions"
+                        description="I developed a simple JavaCard application for managing monetary transactions. The application allows users to perform basic financial operations such as balance inquiries, deposits, and withdrawals, all secured by a PIN code. The backend is built using JavaCard technology, while the frontend interface is designed with JavaFX, providing a user-friendly experience. This project demonstrates my ability to integrate secure card-based applications with modern graphical user interfaces, ensuring both security and usability."
+                        image={JavaCard}
                     />
                 </div>
                 <div className='flex flex-col items-center'>
