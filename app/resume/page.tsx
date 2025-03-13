@@ -5,7 +5,7 @@ import ProjectCard from '../../components/ProjectCard';
 import { FaGraduationCap } from 'react-icons/fa';
 import { MdWorkOutline } from 'react-icons/md';
 import Gallery from '../../assets/gallery.jpg';
-import JavaCard from '../../assets/javacard.png';
+import Exams from '../../assets/gestion_examens.png';
 import Blogs from '../../assets/blogs.png';
 import Badge from '../../components/Badge';
 import { motion } from 'framer-motion';
@@ -62,19 +62,23 @@ const Resume = () => {
                         <h2 className='text-2xl sm:text-3xl'>Projects</h2>
                     </div>
                     <ProjectCard
+                        title="Exam Management Application (In Progress)"
+                        description="Collaborating with a teammate to develop a web and mobile application designed to streamline exam management for universities. The platform allows administrators to efficiently organize exams, department heads to review and validate exam schedules, and teachers and students to access exam timetables and surveillance details via a mobile app. Built using React.js and React Native for the frontend, and Node.js for the backend, this project aims to simplify and modernize academic workflows."
+                        image={Exams}
+                        link="https://github.com/Islem-Chammakhi/gestionExam-frontEnd"
+                    />
+
+                    <ProjectCard
                         title="Image Gallery App"
                         description="I developed a simple image gallery application using Next.js, Tailwind CSS, and the Pexels API. The app allows users to browse a dynamic collection of high-quality images. Next.js ensures efficient server-side rendering, while Tailwind CSS provides a modern and responsive layout. Integration with the Pexels API facilitates easy retrieval and display of images from a vast online library, delivering a smooth and visually appealing user experience."
                         image={Gallery}
+                        link="https://github.com/Islem-Chammakhi/Image-Gallery"
                     />
                     <ProjectCard
                         title="Blogs App"
                         description="I developed a simple blog application using Node.js for the backend, with EJS for rendering views and MongoDB for data storage. The application allows users to add, delete, and manage blogs with authentication. I implemented the MVC architecture to separate concerns and ensure scalability."
                         image={Blogs}
-                    />
-                    <ProjectCard
-                        title="JavaCard Application for Managing Monetary Transactions"
-                        description="I developed a simple JavaCard application for managing monetary transactions. The application allows users to perform basic financial operations such as balance inquiries, deposits, and withdrawals, all secured by a PIN code. The backend is built using JavaCard technology, while the frontend interface is designed with JavaFX, providing a user-friendly experience. This project demonstrates my ability to integrate secure card-based applications with modern graphical user interfaces, ensuring both security and usability."
-                        image={JavaCard}
+                        link="https://github.com/Islem-Chammakhi/blogs"
                     />
                 </div>
                 <div className='flex flex-col items-center'>

@@ -36,11 +36,11 @@ const title = {
 };
 
 const HomePage = () => {
-    const personalInfo="My name is Islem Chammakhi, and I am currently pursuing a degree in software engineering after completing two years of integrated preparatory studies in computer science. My journey has allowed me to explore various fields such as web and mobile development, databases, networking, Linux, UML design, and object-oriented programming. Passionate about learning and discovering new technologies, I am constantly seeking new challenges and innovative projects to enhance my skills and experience."
-    const webDescription="I learned the basics of web development with HTML, CSS, and JavaScript before moving on to React, Node.js, and MongoDB to create simple projects. Later, I explored server-side development with Java Servlet as part of my training."
+    const personalInfo="My name is Islem Chammakhi, a software engineering student with a strong foundation in computer science, built through two years of integrated preparatory studies. My academic and personal projects have allowed me to gain hands-on experience in web and mobile development, database management, and machine learning. Driven by a passion for innovation and problem-solving, I am committed to expanding my expertise and contributing to cutting-edge technological advancements."
+    const webDescription="Experienced in building modern web applications using React.js, Next.js, and TailwindCSS for frontend development, and Node.js and Spring Boot for backend solutions. Skilled in delivering end-to-end projects, from intuitive user interfaces to scalable backend systems."
     const dbDescription="I learned the basics of SQL and PL/SQL, gaining an understanding of database concepts and how to interact with data efficiently."
     const oopDescription="Extensive knowledge of object-oriented programming, with a focus on Java."
-    const mobileDescription="Native mobile development with Java using Android Studio."
+    const mobileDescription="Familiar with the basics of mobile development, including native Android development using Java and cross-platform development with React Native. Eager to grow my skills and tackle new challenges in this field."
     const linuxDescription="Basic knowledge of Linux, including essential commands for system navigation and file management."
     const networkingDescription="Basic knowledge of networking concepts, including TCP/IP, DHCP, and DNS."
     return (
@@ -82,12 +82,7 @@ const HomePage = () => {
                     icon={<FaAndroid  size={50} className="text-gray-600" />}
                     backgroundColor="bg-gray-200"
                 />
-                <Card
-                    title="Object-Oriented Programming"
-                    description={oopDescription}
-                    icon={<FaCogs size={50} className="text-blue-600" />}
-                    backgroundColor="bg-blue-200"
-                />
+
                 <Card
                     title="Database Management"
                     description={dbDescription}

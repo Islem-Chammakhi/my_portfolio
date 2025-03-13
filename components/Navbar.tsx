@@ -22,7 +22,7 @@ const Navbar = () => {
     variants={variant}
     initial="hidden"
     animate="visible"
-    className=" bg-white shadow-md rounded-md">
+    className="fixed w-full z-50 bg-white shadow-md rounded-md">
       <div className="container mx-auto px-6 py-3">
         <div className="flex justify-between items-center space-x-8">
             <Link href="/">

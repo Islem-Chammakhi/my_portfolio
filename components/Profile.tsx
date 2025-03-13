@@ -41,7 +41,7 @@ const Profile = () => {
             animate="visible"
             className='bg-white rounded-md shadow-lg p-6 md:p-8 lg:p-10 mx-4 md:mx-6 lg:mx-8'>
             
-            <div className="flex justify-center mb-6">
+            <div className="flex justify-center mb-3">
                 <Image
                     src={profilePic}
                     alt="Profile Picture"
@@ -60,14 +60,7 @@ const Profile = () => {
             <h3 className='text-gray-500 text-xl text-center mb-4'>Software Engineer</h3>
             
             {/* Social media links included with Icons */}
-            <div className="flex justify-center gap-6 mb-6">
-                <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    className='bg-blue-50 rounded-full p-3 hover:bg-blue-300'>
-                    <a href="https://www.facebook.com/profile.php?id=100011968686790" target="_blank" rel="noopener noreferrer" className="text-blue-600">
-                        <FaFacebook size={30} />
-                    </a>
-                </motion.div>
+            <div className="flex justify-center gap-6 mb-3">
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     className='bg-blue-50 rounded-full p-3 hover:bg-blue-300'>
