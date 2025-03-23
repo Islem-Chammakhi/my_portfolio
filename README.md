@@ -5,7 +5,6 @@ Welcome to my portfolio! This website showcases my projects and achievements in 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript, Tailwind CSS, React.js
-- **Backend**: Node.js (if applicable)
 - **Hosting**: Vercel
 
 ## Description
